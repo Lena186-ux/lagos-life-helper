@@ -22,29 +22,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.lagoslifehelper.com"
-        }
-      ],
-      "destination": "https://lagoslifehelper.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "lagos-life-helper.vercel.app"
-        }
-      ],
-      "destination": "https://lagoslifehelper.com/:path*",
-      "permanent": true
-    }
   ]
 }
