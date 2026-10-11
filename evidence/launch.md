@@ -28,3 +28,12 @@ User explicitly authorized GitHub automatic deployment integration and confirmed
 GSC/Bing submission and analytics/advertising setup have not been performed. After domain verification, submit sitemap, monitor queries and improve guides using confirmed gameplay data before seeking an advertising account. No revenue forecast.
 
 SEO used the parent chat's existing gefei trend findings. No new gefei queries, request IDs or credits in this chat (0 additional credits).
+
+
+## Access incident and mitigation — 19:40–19:47 Asia/Shanghai
+
+User reported that apex could not open. Normal DNS queries on the current network still returned old registrar parking addresses, causing TLS internal errors. All three DNSOWL authoritative nodes returned only Vercel addresses. Cloudflare HTTPS DNS query returned the correct addresses, while UDP DNS on this network continued returning old records. This distinction means the current network's resolver path remains stale; do not assume every named UDP resolver query is an independent global signal.
+
+Removed www and default Vercel domain redirects through Vercel's domain API, and removed matching host redirects from vercel.json. Commit 331d6d9 deployed automatically to production dpl_W8w7QqbTHXUd5UPBtML1SmmHcmDh, READY. www.lagoslifehelper.com and lagos-life-helper.vercel.app now directly serve HTTP 200 with valid HTTPS. A real browser loaded the www homepage and navigated to the calculator. Site navigation uses relative paths and stays on the working www host. Cloudflare DNS purge request queued; Google's embedded purge tool could not load on this network.
+
+Keep the direct access entrances until ordinary apex HTTPS and real browser navigation work. Do not restore forced apex redirects merely because authoritative DNS or pinned HTTPS works. Apex remains the canonical origin; site content and sitemap are unchanged. Signed-in UI screenshots remain local.
