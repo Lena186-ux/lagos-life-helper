@@ -37,3 +37,8 @@ User reported that apex could not open. Normal DNS queries on the current networ
 Removed www and default Vercel domain redirects through Vercel's domain API, and removed matching host redirects from vercel.json. Commit 331d6d9 deployed automatically to production dpl_W8w7QqbTHXUd5UPBtML1SmmHcmDh, READY. www.lagoslifehelper.com and lagos-life-helper.vercel.app now directly serve HTTP 200 with valid HTTPS. A real browser loaded the www homepage and navigated to the calculator. Site navigation uses relative paths and stays on the working www host. Cloudflare DNS purge request queued; Google's embedded purge tool could not load on this network.
 
 Keep the direct access entrances until ordinary apex HTTPS and real browser navigation work. Do not restore forced apex redirects merely because authoritative DNS or pinned HTTPS works. Apex remains the canonical origin; site content and sitemap are unchanged. Signed-in UI screenshots remain local.
+
+
+## Apex browser verification completed
+
+After the user reported apex success, a subsequent real in-app browser navigation directly to https://lagoslifehelper.com/ loaded the homepage. The tab URL was explicitly confirmed as the apex, without www. Clicking Budget tool loaded https://lagoslifehelper.com/budget-calculator/ with the calculator form, then the brand link returned to the apex homepage. No DNS override, certificate warning bypass, hosts edit or persistent network configuration change was used. A local screenshot was saved at /private/tmp/lagos-apex-browser-verified.jpg. This confirms browser access; it does not claim every global resolver has converged.
