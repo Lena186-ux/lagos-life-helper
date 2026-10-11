@@ -19,9 +19,11 @@ Vercel verified apex and www as configured correctly. HTTPS requests pinned to t
 
 At 19:24 Asia/Shanghai on 11 October, authoritative DNS and Cloudflare resolve the new records, while Google DNS and the local browser still cache the old parking address. Ordinary apex requests can temporarily fail TLS until caches expire. Do not bypass certificate warnings. Production HTTPS on the new address is valid, but browser custom-domain QA awaits propagation.
 
-## Pending
+## GitHub automatic deployment
 
-User explicitly authorized GitHub automatic deployment integration and confirmed saving the existing Vercel App permissions for only the new repository, preserving previous selections. GitHub confirmed Installation Completed; Vercel CLI confirmed Connected to Lena186-ux/lagos-life-helper. This evidence update is pushed to main to verify the automatic production deployment.
+User explicitly authorized GitHub automatic deployment integration and confirmed saving the existing Vercel App permissions for only the new repository, preserving previous selections. GitHub confirmed Installation Completed; Vercel CLI confirmed Connected to Lena186-ux/lagos-life-helper. Verified by a real main push: commit a297eb49aa1f2260d4d9e193aae8bc4f26d8766b created production deployment dpl_CJRKZoFVTVQJP9L8i4xL31jzDMfN with source git and state READY. Vercel inspect confirms apex and www aliases; HTTPS on the new address returned 200. The signed-in settings screenshot is kept locally and is not published to the public repository.
+
+## Remaining follow-up
 
 GSC/Bing submission and analytics/advertising setup have not been performed. After domain verification, submit sitemap, monitor queries and improve guides using confirmed gameplay data before seeking an advertising account. No revenue forecast.
 
