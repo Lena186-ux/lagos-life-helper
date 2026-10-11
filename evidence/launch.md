@@ -21,7 +21,7 @@ At 19:24 Asia/Shanghai on 11 October, authoritative DNS and Cloudflare resolve t
 
 ## Pending
 
-User explicitly authorized GitHub automatic deployment integration. The existing Vercel GitHub App does not expose this new repository. CLI connect failed and Vercel Git settings search confirms no access. GitHub requires email identity verification before opening the existing App permissions; the user has been asked to complete verification and add only Lena186-ux/lagos-life-helper, preserving existing selections. Project link is still null; automatic deployments are not yet enabled. Current release was deployed via CLI.
+User explicitly authorized GitHub automatic deployment integration and confirmed saving the existing Vercel App permissions for only the new repository, preserving previous selections. GitHub confirmed Installation Completed; Vercel CLI confirmed Connected to Lena186-ux/lagos-life-helper. This evidence update is pushed to main to verify the automatic production deployment.
 
 GSC/Bing submission and analytics/advertising setup have not been performed. After domain verification, submit sitemap, monitor queries and improve guides using confirmed gameplay data before seeking an advertising account. No revenue forecast.
 
