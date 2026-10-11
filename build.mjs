@@ -1,5 +1,5 @@
 import {mkdir,writeFile,cp,rm} from 'node:fs/promises';
-const origin=(process.env.SITE_URL||'https://lagos-life-helper.vercel.app').replace(/\/$/,'');
+const origin=(process.env.SITE_URL||'https://lagoslifehelper.com').replace(/\/$/,'');
 const checked='11 October 2026';
 const official='<a href="https://lagoslife.app/" target="_blank" rel="noopener noreferrer">Open Lagos Life ↗</a>';
 const sources=`<div class="source"><strong>Source & verification</strong><p>Checked ${checked}: <a href="https://lagoslife.app/">official Lagos Life browser game</a>, its publicly served help and housing interface; <a href="https://lagoslife.app/terms">official terms</a> (effective 1 October 2026).</p><p>Public-source review, not a logged-in playthrough. No numbered release version was confirmed. Prices, eligibility and mechanics can change; your current game screen takes priority.</p></div>`;

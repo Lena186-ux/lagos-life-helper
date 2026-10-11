@@ -4,7 +4,7 @@ Independent English companion to the Lagos Life browser game at https://lagoslif
 
 ## Build
 
-`node build.mjs` builds ten static pages and a browser-only calculator into `dist/`. No runtime dependencies. `SITE_URL` controls canonical URLs and sitemap; until the domain is owned, default is https://lagos-life-helper.vercel.app.
+`node build.mjs` builds ten static pages and a browser-only calculator into `dist/`. No runtime dependencies. `SITE_URL` controls canonical URLs and sitemap; default is https://lagoslifehelper.com.
 
 ## Evidence
 
@@ -14,6 +14,6 @@ The calculator uses player inputs for shift pay, shift count, rent, loan, routin
 
 ## Deployment
 
-Independent Git repository and Vercel project. GitHub: https://github.com/Lena186-ux/lagos-life-helper. Custom domain lagoslifehelper.com is pending verified purchase; do not configure DNS without ownership.
+Independent Git repository and Vercel project. GitHub: https://github.com/Lena186-ux/lagos-life-helper. Custom domain lagoslifehelper.com is purchased (Active, expiry 2027-10-11) and attached to this project. NameSilo DNS uses the exact Vercel-recommended apex A records and www CNAME.
 
 No analytics, ads, affiliate links or game assets are included. Original CSS skyline art. Future monetization is an advertising experiment after traffic and ad account approval, not a promise of income.
