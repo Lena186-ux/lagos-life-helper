@@ -16,4 +16,4 @@ The calculator uses player inputs for shift pay, shift count, rent, loan, routin
 
 Independent Git repository and Vercel project. GitHub: https://github.com/Lena186-ux/lagos-life-helper. Custom domain lagoslifehelper.com is purchased (Active, expiry 2027-10-11) and attached to this project. NameSilo DNS uses the exact Vercel-recommended apex A records and www CNAME.
 
-No analytics, ads, affiliate links or game assets are included. Original CSS skyline art. Future monetization is an advertising experiment after traffic and ad account approval, not a promise of income.
+GA4 and Microsoft Clarity are optional and consent-gated; no ads, affiliate links or game assets are included. Original CSS skyline art. Future monetization is an advertising experiment after traffic and ad account approval, not a promise of income.
