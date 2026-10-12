@@ -55,7 +55,7 @@
     for (const entry of document.cookie.split(';')) {
       const name = entry.trim().split('=')[0];
       if (!prefixes.some(prefix => name.startsWith(prefix))) continue;
-      for (const domain of ['', location.hostname, '.' + location.hostname]) {
+      for (const domain of ['', location.hostname, '.' + location.hostname, 'lagoslifehelper.com', '.lagoslifehelper.com']) {
         document.cookie = name + '=; Max-Age=0; Path=/; SameSite=Lax; Secure' +
           (domain ? '; Domain=' + domain : '');
       }
